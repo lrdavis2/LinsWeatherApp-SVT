@@ -1,9 +1,10 @@
 applications:
 - disk_quota: 1024M
-  host: demodra
-  name: demodra
+  host: LinsWeatherAppSVT
+  name: LinsWeatherAppSVT
   buildpack: sdk-for-nodejs
   command: node app.js
+  domain: stage1.mybluemix.net
   path: .
   instances: 1
   memory: 128M
