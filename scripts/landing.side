@@ -1,0 +1,119 @@
+{
+  "id": "ffad3238-2f95-4f48-991d-ae059bfb41d1",
+  "version": "1.1",
+  "name": "LinsWeatherApp-SVT",
+  "url": "https://linsweatherappsvt.stage1.mybluemix.net",
+  "tests": [{
+    "id": "21f92ce4-107a-4880-9aa9-e5fd647e9fad",
+    "name": "weatherDemo",
+    "commands": [{
+      "id": "80216438-5d72-4fcd-988e-763e49d47960",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af5c7d0a-0a00-46bd-863e-7e0d861d7b55",
+      "comment": "",
+      "command": "click",
+      "target": "id=zip1",
+      "targets": [
+        ["id=zip1", "id"],
+        ["css=#zip1", "css"],
+        ["css=#zip1", "css:finder"],
+        ["xpath=//input[@id='zip1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f584a7ba-67a1-4aff-b42b-e404c5955d02",
+      "comment": "",
+      "command": "type",
+      "target": "id=zip1",
+      "targets": [
+        ["id=zip1", "id"],
+        ["css=#zip1", "css"],
+        ["css=#zip1", "css:finder"],
+        ["xpath=//input[@id='zip1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "94960"
+    }, {
+      "id": "1f98262f-8e74-41a6-9124-a07c557c370f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=zip1",
+      "targets": [
+        ["id=zip1", "id"],
+        ["css=#zip1", "css"],
+        ["css=#zip1", "css:finder"],
+        ["xpath=//input[@id='zip1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f37db3ad-b4a8-43c1-bbfc-f40fdb197b42",
+      "comment": "",
+      "command": "click",
+      "target": "id=zip2",
+      "targets": [
+        ["id=zip2", "id"],
+        ["css=#zip2", "css"],
+        ["css=#zip2", "css:finder"],
+        ["xpath=//input[@id='zip2']", "xpath:attributes"],
+        ["xpath=//div[3]/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03415629-4fae-4e9a-87f4-c65b7d67629e",
+      "comment": "",
+      "command": "type",
+      "target": "id=zip2",
+      "targets": [
+        ["id=zip2", "id"],
+        ["css=#zip2", "css"],
+        ["css=#zip2", "css:finder"],
+        ["xpath=//input[@id='zip2']", "xpath:attributes"],
+        ["xpath=//div[3]/div/span/input", "xpath:position"]
+      ],
+      "value": "22709"
+    }, {
+      "id": "a006c74f-c114-45f6-8780-cf84c52585cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=zip3",
+      "targets": [
+        ["id=zip3", "id"],
+        ["css=#zip3", "css"],
+        ["css=#zip3", "css:finder"],
+        ["xpath=//input[@id='zip3']", "xpath:attributes"],
+        ["xpath=//div[4]/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d97dcca-8896-43dd-a825-46238189f2a7",
+      "comment": "",
+      "command": "type",
+      "target": "id=zip3",
+      "targets": [
+        ["id=zip3", "id"],
+        ["css=#zip3", "css"],
+        ["css=#zip3", "css:finder"],
+        ["xpath=//input[@id='zip3']", "xpath:attributes"],
+        ["xpath=//div[4]/div/span/input", "xpath:position"]
+      ],
+      "value": "95123"
+    }]
+  }],
+  "suites": [{
+    "id": "d5f16f77-dae5-466e-bfdf-5ceb574c9189",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["21f92ce4-107a-4880-9aa9-e5fd647e9fad"]
+  }],
+  "urls": ["https://linsweatherappsvt.stage1.mybluemix.net/"],
+  "plugins": []
+}
