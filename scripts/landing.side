@@ -77,7 +77,7 @@
         ["xpath=//input[@id='zip2']", "xpath:attributes"],
         ["xpath=//div[3]/div/span/input", "xpath:position"]
       ],
-      "value": "22709"
+      "value": "99501"
     }, {
       "id": "a006c74f-c114-45f6-8780-cf84c52585cf",
       "comment": "",
